@@ -1,0 +1,109 @@
+.sol {
+    width: 680px;
+    height: 214px;
+    background-color: rgba(248, 116, 138, 0.425);
+    /* %50 şeffaf pembe */
+    /* Kırmızı, %50 şeffaflık */
+    position: relative;
+    border-radius: 30px;
+    left: 100px;
+}
+
+.sol h1 {
+    color: black;
+    position: relative;
+    left: 50px;
+
+}
+
+.sol p {
+    color: black;
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+    top: -10px;
+
+}
+
+.sol img {
+    position: relative;
+    left: 220px;
+    top: -176px;
+}
+
+.sağ img {
+    position: relative;
+    left: 230px;
+    top: -176px;
+}
+
+.sağbuton {
+    height: 40px;
+    width: 170px;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    font-size: 15px;
+
+}
+
+.sağ h1 {
+    color: black;
+    position: relative;
+    left: 50px;
+
+
+}
+
+.sağ p {
+    color: black;
+    position: relative;
+    left: 50px;
+    top: -10px;
+    font-size: 20px;
+
+}
+
+.solbuton {
+    height: 40px;
+    width: 170px;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    font-size: 15px;
+}
+
+.solbuton:hover {
+    cursor: pointer;
+}
+
+.sağ {
+    width: 680px;
+    height: 214px;
+    background-color: #08bbf77a;
+    position: absolute;
+    right: 180px;
+    border-radius: 30px;
+}
+
+.sağ h1 {
+    color: black;
+}
+
+.kutular {
+    display: flex;
+    margin-left: 30px;
+    padding: 20px;
+
+}
+
+.sağbuton:hover,
+.solbuton:hover {
+    color: rgb(236, 76, 17);
+    transition: 0.5s;
+    cursor: pointer;
+}

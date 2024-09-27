@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #f4f4f4;
+
+
+}
+
+.left-links a {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #333;
+}
+
+.left-links {
+    display: flex;
+
+}
+
+.right-message {
+    color: #333;
+}
+
+.icon {
+    margin-right: 5px;
+}

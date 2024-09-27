@@ -1,0 +1,119 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.productname,
+.productdescription {
+    position: relative;
+    text-align: left;
+
+}
+
+.hizalama {
+    position: relative;
+    top: -100px;
+}
+
+.productdescription {
+    top: -10px;
+}
+
+.imgçizgi {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.çizgi1 {
+    background-color: #DDDDDD;
+    height: 5px;
+    width: 30px;
+}
+
+.puan {
+    color: rgb(219, 143, 0);
+    font-size: 20px;
+    text-align: start;
+    position: relative;
+    top: -15px;
+}
+
+.before-price {
+    font-size: 22px;
+    color: #888888;
+    position: relative;
+    top: 20px;
+}
+
+.pruduct-price {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: -17px;
+}
+
+.sale {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #FBECE8;
+    position: relative;
+    top: 100px;
+    align-items: flex-start;
+}
+
+.sale-p {
+    color: rgb(219, 143, 0);
+    font-weight: bold;
+    position: relative;
+    align-items: center;
+    top: 5px;
+    font-size: 19px;
+}
+
+.star {
+    display: flex;
+    position: relative;
+    left: 45px;
+    top: -23px;
+}
+
+.baslık {
+    margin-left: 110px;
+    position: relative;
+    top: 40px;
+}
+
+.butonlar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-end;
+    position: relative;
+    top: -49px;
+    margin-right: 50px;
+
+}
+
+.butons {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+}
+
+.butons.active {
+    background-color: rgba(0, 204, 255, 0.267);
+    color: rgb(1, 90, 112);
+}
+
+.butons:hover {
+    cursor: pointer;
+    border: 0.2px solid grey;
+    transition: 1s;
+}

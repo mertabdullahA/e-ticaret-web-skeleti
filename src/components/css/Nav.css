@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 90px;
+
+}
+
+
+.search-bar input:focus {
+    border-color: #D34316;
+    outline: none;
+    transition: 0.5s;
+    padding-left: 50px;
+}
+
+
+.input-icon {
+    position: relative;
+    left: 40px;
+    font-size: 19px;
+    top: 3px;
+    color: #D34316;
+}
+
+.search-bar input::placeholder {
+    position: relative;
+    left: 35px;
+    font-size: 15px;
+}
+
+.search-bar input {
+    width: 450px;
+    height: 25px;
+    padding: 12px 12px 12px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.search-icon {
+    margin-left: 17px;
+    color: #ff0800;
+    margin-top: 30px;
+
+}
+
+.nav-buttons {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    right: 90px;
+
+
+
+}
+
+.nav-buttons button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 20px;
+    width: 140px;
+    height: 44px;
+    background-color: #fff;
+    font-size: 14px;
+
+}
+
+
+.nav-buttons .basket {
+    background-color: rgb(240, 238, 238);
+    border-radius: 20px;
+}
+
+.nav-buttons .basket:hover {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: #000000;
+
+
+    .buton-icon-basket {
+        color: #000000;
+    }
+
+
+}
+
+.nav-buttons button:hover {
+    border: 1px solid #D34316;
+    border-radius: 20px;
+    color: #D34316;
+
+    .buton-icon {
+        color: #D34316;
+    }
+}
+
+.buton-icon,
+.buton-icon-basket {
+
+
+    color: black;
+
+    margin-right: 8px;
+
+    font-size: 19px
+}

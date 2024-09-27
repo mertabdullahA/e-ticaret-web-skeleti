@@ -1,0 +1,80 @@
+.kutular {
+
+    margin-left: 90px;
+    display: flex;
+    gap: 90px;
+
+    margin-top: 5px;
+
+}
+
+.kutu1,
+.kutu2,
+.kutu3,
+.kutu4 {
+    width: 350px;
+    height: 600px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+
+}
+
+.kutu1 h1,
+.kutu2 h1,
+.kutu3 h1,
+.kutu4 h1 {
+    color: #373736;
+    text-align: center;
+    font-size: 60px;
+}
+
+.kutu1 p,
+.kutu2 p,
+.kutu3 p,
+.kutu4 p {
+    color: #373736;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+}
+
+.markaimg {
+    position: relative;
+    left: 90px;
+    margin-top: 50px;
+}
+
+
+.kutuimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Resmin genişliğini kapsayıcıya ayarlayın */
+    height: 100%;
+    /* Resmin yüksekliğini kapsayıcıya ayarlayın */
+    object-fit: cover;
+    /* Resmin boyutunu kutuya uyacak şekilde ayarlayın */
+    clip-path: inset(0 50% 0 0);
+    /* Sağ yarısını gizle */
+}
+
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* İçeriği sağa hizalayın */
+    width: 50%;
+    /* Kutu genişliğinin yarısı kadar */
+    height: 100%;
+    /* Kutu yüksekliği */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* İçerik arka planı için yarı saydam beyaz */
+    padding: 20px;
+    /* İçerik için boşluk ekleyin */
+    box-sizing: border-box;
+    /* İçeriğin kutu modelini kullanın */
+}

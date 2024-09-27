@@ -1,0 +1,185 @@
+.logo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top: 60px;
+    margin-right: 68px;
+
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+}
+
+
+
+.ust-menu a:not(:last-child)::after {
+    content: '|';
+    margin-left: 25px;
+    margin-right: 10px;
+    color: #9b9b9b;
+}
+
+.drop {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.menu {
+    position: absolute;
+    top: 75px;
+    border-radius: 0 0 17px 17px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    width: 1400px;
+    height: 571px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    z-index: 1;
+}
+
+.image-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.image-container img {
+    max-width: 100px;
+}
+
+.ust-menu ul li a {
+    margin-left: 40px;
+    font-size: 23px;
+}
+
+
+a:hover {
+    cursor: pointer;
+}
+
+.ust-menu ul li {
+    align-items: center;
+    text-align: center;
+}
+
+.ust-menu ul li a {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.ust-menu {
+    border-top: 0.5px solid rgba(105, 105, 105, 0.397);
+    border-bottom: 0.5px solid rgba(105, 105, 105, 0.397);
+}
+
+.ust-menu a {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+
+.kutu {
+    border: 1.7px solid rgb(196, 196, 196);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    right: 60px;
+    top: 40px;
+
+}
+
+.kutu h1 {
+    text-align: left;
+    margin-left: 36px;
+    margin-top: 35px;
+}
+
+.kutu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    right: 149px;
+    top: -18px;
+
+}
+
+
+.arrowicon {
+    font-size: 15px;
+}
+
+
+.menu-column {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu-column h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: black;
+
+}
+
+.menu-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+
+}
+
+.menu-column ul li {
+    margin-bottom: 5px;
+}
+
+.menu-column ul li a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+
+    font-size: 16px;
+}
+
+.menu-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-column:last-child {
+    margin-right: 0;
+}
+
+
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-right: 40px;
+    margin-top: -50px;
+}

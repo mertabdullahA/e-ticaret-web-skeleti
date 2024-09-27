@@ -1,0 +1,65 @@
+.ustkutu {
+    display: flex;
+    grid-gap: 40px;
+}
+
+.altkutu {
+    display: flex;
+    grid-gap: 40px;
+
+}
+
+.ust-kutu1,
+.ust-kutu2 {
+    width: 800px;
+    height: 400px;
+    background-color: #F4F4F4;
+    margin-left: 80px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.alt-kutu1,
+.alt-kutu2 {
+    width: 800px;
+    height: 400px;
+    background-color: #F4F4F4;
+    margin-left: 80px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kutubaslik {
+    font-size: 60px;
+    position: relative;
+    left: 130px;
+    top: 100px;
+    color: #373736;
+}
+
+.p {
+    position: relative;
+    left: 140px;
+    top: 60px;
+    font-size: 30px;
+    color: #373736;
+}
+
+.marka {
+    position: relative;
+    top: 100px;
+    left: 120px;
+
+}
+
+.img-content {
+    position: relative;
+    left: 50vh;
+    top: -20vh;
+}
+
+body {
+    overflow-x: hidden;
+    /* Sayfanın yatay kaydırmasını kapatır */
+}

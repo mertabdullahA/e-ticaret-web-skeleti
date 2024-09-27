@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import DropdownMenu from './components/DropdownMenu';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Ana from './components/Ana';
+import Slider from './components/Slider';
+
+import React, { useState } from 'react';
+import Ana2 from './components/Ana2';
+import Products from './components/Products';
+import ProductList from './components/ProductList';
+import Kutular from './components/Kutular';
+import Blog from './components/Blog';
+
 
 function App() {
+  const [price, setPrice] = useState(1);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header price={price} />
+
+      <Nav />
+      <DropdownMenu />
+      <Slider />
+      <Ana />
+      <Ana2 />
+      <ProductList></ProductList>
+      <Kutular></Kutular>
+      <Blog></Blog>
+
+    </>
   );
 }
 
